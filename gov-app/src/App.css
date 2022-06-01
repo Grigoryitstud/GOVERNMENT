@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;  /*размер блока не зависит от отступов*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+.body{
+    margin: 0 auto;
+    max-width: 1280px;
+      
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    background-color: #fff;
+    display: grid;
+
+    grid-template-areas: 
+    "a a"
+    "b c";
+    gap: 10px;
+
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 2fr 10fr ;
+      
+  }
+.main-styles {
+    grid-area: c;
+}

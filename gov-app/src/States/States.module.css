@@ -1,0 +1,73 @@
+.container {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;   /*каждый блок с новой строки*/
+    justify-content: center;   /*выровнять по центру ,блока*/
+
+    height: 750px;   /*h750 высота блока*/
+    padding-top: 100px;  /*pt+tab отступ сверху*/
+
+    background: #4089c6/*запасной фон!!!*/ url("../img/maxresdefault.jpg") no-repeat center / cover ;/* /
+        cover всю высоту и ширину блока*/
+}
+
+
+.intro__inner {
+    width: 100%;
+    min-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.intro__titles {
+    margin: 0 0 20px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 85px;
+    line-height: 1.1;  /*lh1.1 межстрочное расстоянте относительно шрифтаб можно в пикселях*/
+    color: #276c0e;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.intro__subtitles {
+    margin-bottom: 60px;
+
+    font-style: 22px;
+    color: #6f1414;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+
+.btn {
+    display: inline-block;   /*dib чтобы задавать padding*/
+    vertical-align: top;   /*vat выравнивание вертикальной границы по верху*/
+    padding: 14px 40px;
+    background-color: #b31313;
+
+    border-radius: 3px; /*закругление*/
+
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background-color .1s /*переход плавный :hover*/
+        linear ;
+}
+
+
+.btn:hover {
+    background-color: #520404;
+}

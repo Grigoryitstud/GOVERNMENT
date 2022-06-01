@@ -1,0 +1,32 @@
+
+.intro {
+    background-color: burlywood;
+    grid-area: b;
+    
+}
+
+.nav {    
+    margin-top: 50px;
+    display: flex;/*d+tab БЕЗ ПРОМЕЖУТКОВ*/
+    flex-direction: column;   /*каждый блок с новой строки*/
+    justify-content: center;   /*выровнять по центру ,блока*/
+    gap: 60px;
+
+    font-size: 12px;
+    font-weight: 700;  /*tw700+tab=100 — тонкое начертание; · 200 — сверхсветлое; · 300 — светлое; · 400 — нормальное (аналогично normal); · 500 — среднее; · 600 — полужирное; · 700 —жирное*/
+    text-transform: uppercase;/*ttu+tab все буквы большие*/
+
+}
+.nav__link {
+    padding: 10px;/*ml50+tab отступ слева*/
+    color: #fff;
+    text-decoration: none;/*ttn+tab подчеркивание отсутствует*/
+    opacity: .75; /*прозрачность*/
+
+    transition: opacity .2s linear; /*плавный переход*/
+}
+
+.nav__link:hover {  /*при наведении*/
+    opacity: 1;
+    text-decoration: underline;  /*нижнее подчеркивание*/
+} 

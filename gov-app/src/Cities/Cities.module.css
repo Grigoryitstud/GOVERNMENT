@@ -1,0 +1,42 @@
+.container {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.cities {
+    display: flex;
+    flex-wrap: wrap;/*перенос на новую строку если не помещаются*/
+    margin: 100px 0;
+}
+
+
+.cities__item {
+    width: 33.333333%;
+    text-align: center;
+    padding: 0 40;
+    margin: 25px 0;
+}
+
+.cities__icon {
+    margin-bottom: 25px;
+}
+
+
+.cities__titles {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    color: currentColor;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+.cities__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: currentColor;
+}
