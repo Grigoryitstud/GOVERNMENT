@@ -6,6 +6,27 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 20px;
+    color: #000;
+}
+.title {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.row {
+    height: 15px;
+}
+.column1 {
+    width: 10px;
+    border: 1px solid black;
+}
+.column2 {
+    width: 200px;
+    font-size: 12px;
+    border: 1px solid black;
+}
+.column3 {
+    width: 20px;
+    border: 1px solid black;
 }
 
 .a {

@@ -16,7 +16,7 @@ const Header = () => {
           <nav className={s.nav}>
             <NavLink to='' className = { navData => navData.isActive ? s.active : s.item }>ГЛАВНАЯ</NavLink>
             <NavLink to='/DemPage' className = { navData => navData.isActive ? s.active : s.item }>ДЕМОКРАТИЯ</NavLink>
-            <NavLink to='/MistoPage' className = { navData => navData.isActive ? s.active : s.item }>МЯСТЭЧКА</NavLink>
+            <NavLink to='/MistoPage' className = { navData => navData.isActive ? s.active : s.item }>МЯСТЭЧКИ</NavLink>
           </nav>
         
       </div>
