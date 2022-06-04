@@ -12,7 +12,7 @@ const Democracy = () => {
             <h2 className={s.intro__subtitles}>
             демократия и образование спасут мир
             </h2>
-            <a className={s.btn} href="#">Узнай больше</a>
+            <p className={s.btn}>Узнай больше</p>
         </div>
     </div>
 </div>

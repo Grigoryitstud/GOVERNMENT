@@ -1,0 +1,9 @@
+.dep {
+    height: 450px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    background-color: aqua;
+}

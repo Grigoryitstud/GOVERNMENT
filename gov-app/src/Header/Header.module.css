@@ -27,23 +27,33 @@
 }
 
 .nav {
+    padding-right: 30px;
     display: flex;/*d+tab БЕЗ ПРОМЕЖУТКОВ*/
     flex-wrap: wrap;
+    gap: 40px;
     font-size: 18px;
     font-weight: 700;  /*tw700+tab=100 — тонкое начертание; · 200 — сверхсветлое; · 300 — светлое; · 400 — нормальное (аналогично normal); · 500 — среднее; · 600 — полужирное; · 700 —жирное*/
     text-transform: uppercase;/*ttu+tab все буквы большие*/
 
 }
 
-.nav__link {
-    margin-left: 50px;/*ml50+tab отступ слева*/
+
+.item {
     color: #fff;
     text-decoration: none;/*ttn+tab подчеркивание отсутствует*/
     opacity: .75; /*прозрачность*/
+    text-decoration: none;
 
     transition: opacity .5s linear; /*плавный переход*/
+    transition: color 1s linear; /*плавный переход*/
 }
 
-.nav__link:hover {  /*при наведении*/
+.item:hover {  /*при наведении*/
     opacity: 1;/*нижнее подчеркивание*/
-}       
+}
+.active {
+    color: gold;
+    text-decoration: none;
+    opacity: 1;
+
+}     
