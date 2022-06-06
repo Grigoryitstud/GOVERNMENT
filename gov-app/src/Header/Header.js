@@ -17,6 +17,7 @@ const Header = () => {
             <NavLink to='' className = { navData => navData.isActive ? s.active : s.item }>ГЛАВНАЯ</NavLink>
             <NavLink to='/DemPage' className = { navData => navData.isActive ? s.active : s.item }>ДЕМОКРАТИЯ</NavLink>
             <NavLink to='/MistoPage' className = { navData => navData.isActive ? s.active : s.item }>МЯСТЭЧКИ</NavLink>
+            <NavLink to='/GovePage' className = { navData => navData.isActive ? s.active : s.item }>Правительство</NavLink>
           </nav>
         
       </div>

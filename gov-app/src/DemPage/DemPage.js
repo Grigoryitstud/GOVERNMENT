@@ -39,7 +39,7 @@ const DemPage = () => {
                         </tr>
                         <tr className={s.row}>
                             <td className={s.column1}>4</td>
-                            <td className={s.column2}>Новая Зелан­дия</td>
+                            <td className={s.column2}>Новая Зел.</td>
                             <td className={s.column3}>99</td>
                         </tr>
                         <tr className={s.row}>
@@ -97,7 +97,7 @@ const DemPage = () => {
                             <td className={s.column2}>Швей­цария</td>
                             <td className={s.column3}>96</td>
                         </tr>
-                        <tr className={s.row}>
+                        <tr className={s.rowB}>
                             <td className={s.column1}>191</td>
                             <td className={s.column2}>Беларусь</td>
                             <td className={s.column3}>11</td>
@@ -107,43 +107,179 @@ const DemPage = () => {
             </section>
 
             <section className={s.p}>
-                СВОБОДА СЛОВА\n
-                1	Норвегия	6.72 \n
-                2	Финляндия	6.99 \n
-                3	Швеция	7.24\n
-                4	Дания  8.57\n
-                5	Коста-Рика	8.76\n
-                6	Нидерланды	9.67\n
-                7	Ямайка	9.96\n
-                8	Новая Зел.	10.04\n
-                9	Португалия	10.11\n
-                10	Швейцария	10.55\n
-                11	Бельгия	11.69\n
-                12	Ирландия	11.91\n
-                13	Германия	15.24\n
-                14	Канада	15.25\n
-                15	Эстония	15.25\n
-                158	Беларусь  50.82
+            <h3 className={s.title}>СВОБОДА СЛОВА</h3>
+                <table>
+                    <tbody>
+                        <tr className={s.row}>
+                            <td className={s.column1}>1</td>
+                            <td className={s.column2}>Норвегия</td>
+                            <td className={s.column3}>6.7</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>2</td>
+                            <td className={s.column2}>Финляндия</td>
+                            <td className={s.column3}>7</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>3</td>
+                            <td className={s.column2}>Швеция</td>
+                            <td className={s.column3}>7</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>4</td>
+                            <td className={s.column2}>Дания</td>
+                            <td className={s.column3}>8</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>5</td>
+                            <td className={s.column2}>Коста-Рика</td>
+                            <td className={s.column3}>8</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>6</td>
+                            <td className={s.column2}>Нидерланды</td>
+                            <td className={s.column3}>9</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>7</td>
+                            <td className={s.column2}>Ямайка</td>
+                            <td className={s.column3}>9</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>8</td>
+                            <td className={s.column2}>Новая Зел.</td>
+                            <td className={s.column3}>10</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>9</td>
+                            <td className={s.column2}>Португалия</td>
+                            <td className={s.column3}>10</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>10</td>
+                            <td className={s.column2}>Швейцария</td>
+                            <td className={s.column3}>10</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>11</td>
+                            <td className={s.column2}>Бельгия</td>
+                            <td className={s.column3}>11</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>12</td>
+                            <td className={s.column2}>Ирландия</td>
+                            <td className={s.column3}>11</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>13</td>
+                            <td className={s.column2}>Германия</td>
+                            <td className={s.column3}>15</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>14</td>
+                            <td className={s.column2}>Канада</td>
+                            <td className={s.column3}>15</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>15</td>
+                            <td className={s.column2}>Эстония</td>
+                            <td className={s.column3}>15</td>
+                        </tr>
+                        <tr className={s.rowB}>
+                            <td className={s.column1}>158</td>
+                            <td className={s.column2}>Беларусь</td>
+                            <td className={s.column3}>50</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section className={s.q}>
-                УРОВЕНЬ СЧАСТЬЯ\n
-                1	Финлян­дия	7.821\n
-                2	Дания	7.636\n
-                3	Исландия	7.557\n
-                4	Швей­цария	7.512\n
-                5	Нидер­ланды	7.415\n
-                6	Люксем­бург	7.404\n
-                7	Швеция	7.384\n
-                8	Норвегия	7.365\n
-                9	Израиль	7.364\n
-                10	Новая Зел. 7.200\n
-                11	Австрия	7.163\n
-                12	Австра­лия	7.162\n
-                13	Ирландия	7.041\n
-                14	Германия	7.034\n
-                15	Канада	7.025\n
-                65	Беларусь	5.821
+            <h3 className={s.title}>УРОВЕНЬ СЧАСТЬЯ</h3>
+                <table>
+                    <tbody>
+                        <tr className={s.row}>
+                            <td className={s.column1}>1</td>
+                            <td className={s.column2}>Финлян­дия</td>
+                            <td className={s.column3}>7.821</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>2</td>
+                            <td className={s.column2}>Дания</td>
+                            <td className={s.column3}>7.636</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>3</td>
+                            <td className={s.column2}>Исландия</td>
+                            <td className={s.column3}>7.557</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>4</td>
+                            <td className={s.column2}>Швей­цария</td>
+                            <td className={s.column3}>7.512</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>5</td>
+                            <td className={s.column2}>Нидер­ланды</td>
+                            <td className={s.column3}>7.415</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>6</td>
+                            <td className={s.column2}>Люксем­бург</td>
+                            <td className={s.column3}>7.404</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>7</td>
+                            <td className={s.column2}>Швеция</td>
+                            <td className={s.column3}>7.384</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>8</td>
+                            <td className={s.column2}>Норвегия</td>
+                            <td className={s.column3}>7.365</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>9</td>
+                            <td className={s.column2}>Израиль</td>
+                            <td className={s.column3}>7.364</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>10</td>
+                            <td className={s.column2}>Новая Зел.</td>
+                            <td className={s.column3}>7.200</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>11</td>
+                            <td className={s.column2}>Австрия</td>
+                            <td className={s.column3}>7.163</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>12</td>
+                            <td className={s.column2}>Австра­лия</td>
+                            <td className={s.column3}>7.162</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>13</td>
+                            <td className={s.column2}>Ирландия</td>
+                            <td className={s.column3}>7.041</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>14</td>
+                            <td className={s.column2}>Германия</td>
+                            <td className={s.column3}>7.034</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>15</td>
+                            <td className={s.column2}>Канада</td>
+                            <td className={s.column3}>7.025</td>
+                        </tr>
+                        <tr className={s.rowB}>
+                            <td className={s.column1}>65</td>
+                            <td className={s.column2}>Беларусь</td>
+                            <td className={s.column3}>5.821</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section className={s.c}>
@@ -151,66 +287,267 @@ const DemPage = () => {
             </section>
 
             <section className={s.d}>
-                школьное образование\n
-                1	Германия	0.943\n
-                2	Норвегия	0.930\n
-                3	Велико­британия	0.928\n
-                4	Финлян­дия	0.927\n
-                5	Исландия	0.926\n
-                6	Новая Зелан­дия	0.926\n
-                7	Австра­лия	0.924\n
-                8	Ирландия	0.922\n
-                9	Дания	0.920\n
-                10	Швеция	0.918\n
-                11	Нидер­ланды	0.914\n
-                12	Словения	0.910\n
-                13	Бельгия	0.902\n
-                14	Швей­цария	0.900\n
-                15	С Ш А	0.900\n
-                32	Беларусь	0.838
-
+            <h3 className={s.title}>ШКОЛЬНОЕ ОБР.</h3>
+                <table>
+                    <tbody>
+                        <tr className={s.row}>
+                            <td className={s.column1}>1</td>
+                            <td className={s.column2}>Германия</td>
+                            <td className={s.column3}>0.943</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>2</td>
+                            <td className={s.column2}>Норвегия</td>
+                            <td className={s.column3}>0.930</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>3</td>
+                            <td className={s.column2}>Велико­бр.</td>
+                            <td className={s.column3}>0.928</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>4</td>
+                            <td className={s.column2}>Финлян­дия</td>
+                            <td className={s.column3}>0.927</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>5</td>
+                            <td className={s.column2}>Исландия</td>
+                            <td className={s.column3}>0.926</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>6</td>
+                            <td className={s.column2}>Новая Зел.</td>
+                            <td className={s.column3}>0.926</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>7</td>
+                            <td className={s.column2}>Австра­лия</td>
+                            <td className={s.column3}>0.924</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>8</td>
+                            <td className={s.column2}>Ирландия</td>
+                            <td className={s.column3}>0.922</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>9</td>
+                            <td className={s.column2}>Дания</td>
+                            <td className={s.column3}>0.920</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>10</td>
+                            <td className={s.column2}>Швеция</td>
+                            <td className={s.column3}>0.918</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>11</td>
+                            <td className={s.column2}>Нидер­ланды</td>
+                            <td className={s.column3}>0.914</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>12</td>
+                            <td className={s.column2}>Словения</td>
+                            <td className={s.column3}>0.910</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>13</td>
+                            <td className={s.column2}>Бельгия</td>
+                            <td className={s.column3}>0.902</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>14</td>
+                            <td className={s.column2}>Швей­цария</td>
+                            <td className={s.column3}>0.900</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>15</td>
+                            <td className={s.column2}>С Ш А</td>
+                            <td className={s.column3}>0.900</td>
+                        </tr>
+                        <tr className={s.rowB}>
+                            <td className={s.column1}>32</td>
+                            <td className={s.column2}>Беларусь</td>
+                            <td className={s.column3}>0.838</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section className={s.J}>
-                Здравоохранение\n
-                1	Гонконг	88.9\n
-                2	Сингапур	84.2\n
-                3	Испания	72.2\n
-                4	Южная Корея	71.5\n
-                5	Япония	68.2\n
-                6	Италия	67.7\n
-                7	Израиль	66.8\n
-                8	Чили	65.2\n
-                9	О А Э	64.3\n
-                10	Австралия	62.0\n
-                11	Аргентина	59.8\n
-                12	Тайвань	59.7\n
-                13	Греция	59.0\n
-                14	Швейцария	57.8\n
-                15	Франция	56.8\n
-                48	Беларусь	35.2\n
-
+            <h3 className={s.title}>МЕДИЦИНА</h3>
+                <table>
+                    <tbody>
+                        <tr className={s.row}>
+                            <td className={s.column1}>1</td>
+                            <td className={s.column2}>Гонконг</td>
+                            <td className={s.column3}>89</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>2</td>
+                            <td className={s.column2}>Сингапур</td>
+                            <td className={s.column3}>84</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>3</td>
+                            <td className={s.column2}>Испания</td>
+                            <td className={s.column3}>72</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>4</td>
+                            <td className={s.column2}>Южная Корея</td>
+                            <td className={s.column3}>71.5</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>5</td>
+                            <td className={s.column2}>Япония</td>
+                            <td className={s.column3}>68</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>6</td>
+                            <td className={s.column2}>Италия</td>
+                            <td className={s.column3}>67</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>7</td>
+                            <td className={s.column2}>Израиль</td>
+                            <td className={s.column3}>66</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>8</td>
+                            <td className={s.column2}>Чили</td>
+                            <td className={s.column3}>65.2</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>9</td>
+                            <td className={s.column2}>О А Э</td>
+                            <td className={s.column3}>64.3</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>10</td>
+                            <td className={s.column2}>Австралия</td>
+                            <td className={s.column3}>62.0</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>11</td>
+                            <td className={s.column2}>Аргентина</td>
+                            <td className={s.column3}>59.8</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>12</td>
+                            <td className={s.column2}>Тайвань</td>
+                            <td className={s.column3}>59.7</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>13</td>
+                            <td className={s.column2}>Греция</td>
+                            <td className={s.column3}>59.0</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>14</td>
+                            <td className={s.column2}>Швейцария</td>
+                            <td className={s.column3}>57.8</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>15</td>
+                            <td className={s.column2}>Франция</td>
+                            <td className={s.column3}>56.8</td>
+                        </tr>
+                        <tr className={s.rowB}>
+                            <td className={s.column1}>48</td>
+                            <td className={s.column2}>Беларусь</td>
+                            <td className={s.column3}>35.2</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section className={s.K}>
-                средняя з/п\n
-                1 Швейцария	6244\n
-                2	Дания	6192\n
-                3	Люксембург	5854\n
-                4	Норвегия  $5450 \n
-                5	Исландия	5436\n
-                6	Германия	4392\n
-                7	Япония	3998\n
-                8	Бельгия	3930\n
-                9	США	3921\n
-                10	Финляндия	3908\n
-                11	Сингапур	3782\n
-                12	Ирландия	3671\n
-                13	Андорра 	3388\n
-                14	Новая Зеландия	3354\n
-                15	Австралия	3346\n
-                61	Белоруссия	545
-
+            <h3 className={s.title}>СРЕДНЯЯ З/П</h3>
+                <table>
+                    <tbody>
+                        <tr className={s.row}>
+                            <td className={s.column1}>1</td>
+                            <td className={s.column2}>Швейцария</td>
+                            <td className={s.column3}>6244</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>2</td>
+                            <td className={s.column2}>Дания</td>
+                            <td className={s.column3}>6192</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>3</td>
+                            <td className={s.column2}>Люксембург</td>
+                            <td className={s.column3}>5854</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>4</td>
+                            <td className={s.column2}>Норвегия</td>
+                            <td className={s.column3}>5436</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>5</td>
+                            <td className={s.column2}>Исландия</td>
+                            <td className={s.column3}>5436</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>6</td>
+                            <td className={s.column2}>Германия</td>
+                            <td className={s.column3}>4392</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>7</td>
+                            <td className={s.column2}>Япония</td>
+                            <td className={s.column3}>3998</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>8</td>
+                            <td className={s.column2}>Бельгия</td>
+                            <td className={s.column3}>3930</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>9</td>
+                            <td className={s.column2}>США</td>
+                            <td className={s.column3}>3921</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>10</td>
+                            <td className={s.column2}>Финляндия</td>
+                            <td className={s.column3}>3908</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>11</td>
+                            <td className={s.column2}>Сингапур</td>
+                            <td className={s.column3}>3782</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>12</td>
+                            <td className={s.column2}>Ирландия</td>
+                            <td className={s.column3}>3671</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>13</td>
+                            <td className={s.column2}>Андорра</td>
+                            <td className={s.column3}>3388</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>14</td>
+                            <td className={s.column2}>Новая Зел.</td>
+                            <td className={s.column3}>3354</td>
+                        </tr>
+                        <tr className={s.row}>
+                            <td className={s.column1}>15</td>
+                            <td className={s.column2}>Австралия</td>
+                            <td className={s.column3}>3346</td>
+                        </tr>
+                        <tr className={s.rowB}>
+                            <td className={s.column1}>61</td>
+                            <td className={s.column2}>Беларусь</td>
+                            <td className={s.column3}>545</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section className={s.e}>

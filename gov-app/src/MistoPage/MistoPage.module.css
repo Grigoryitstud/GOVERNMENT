@@ -1,9 +1,44 @@
-.dep {
-    height: 450px;
-    font-size: 45px;
+.gov {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 40px;
+    background-color: beige;
+}
+.section {
+    padding: 10px;
+    width: 100%;
+    text-align: center;         
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    color: blueviolet;
-    background-color: aqua;
+    justify-content: center; 
+    gap: 40px;            
+    color: rgb(4, 3, 68);
+    font-size: 25px;
+    font-weight: 600;   
+}
+.candidate {
+    padding: 10px;
+    width: 100%;
+    text-align: center;         
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.candidates {
+    padding: 10px;       
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.log {
+    padding: 10px;
+    text-align: center;         
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }

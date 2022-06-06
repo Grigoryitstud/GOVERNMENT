@@ -5,11 +5,11 @@
     
 }
 
-.nav {    
+.nav {
     margin-top: 50px;
     display: flex;/*d+tab БЕЗ ПРОМЕЖУТКОВ*/
     flex-direction: column;   /*каждый блок с новой строки*/
-    justify-content: center;   /*выровнять по центру ,блока*/
+    justify-content: space-between;  /*выровнять по центру ,блока*/
     gap: 60px;
 
     font-size: 12px;

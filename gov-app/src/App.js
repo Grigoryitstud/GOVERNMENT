@@ -6,6 +6,7 @@ import MainPage from './MainPage/MainPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import DemPage from './DemPage/DemPage';
 import MistoPage from './MistoPage/MistoPage'
+import GovePage from './GovePage/GovePage';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             <Route path='' element={<MainPage />} />
             <Route path='/DemPage' element={<DemPage />} />
             <Route path='/MistoPage' element={<MistoPage />} />
+            <Route path='/GovePage' element={<GovePage />} />
           </Routes>
         </div>
       </div>
