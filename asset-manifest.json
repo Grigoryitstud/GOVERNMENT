@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/GOVERNMENT/static/css/main.ace76281.css",
+    "main.js": "/GOVERNMENT/static/js/main.c8180609.js",
+    "static/js/787.c9d9a7d9.chunk.js": "/GOVERNMENT/static/js/787.c9d9a7d9.chunk.js",
+    "static/media/states.jpg": "/GOVERNMENT/static/media/states.e9a87ec4d0edc8c3a521.jpg",
+    "static/media/maxresdefault.jpg": "/GOVERNMENT/static/media/maxresdefault.7a54613abfaff54410ae.jpg",
+    "static/media/baranovichi-theatre.jpg": "/GOVERNMENT/static/media/baranovichi-theatre.83acbc96244147a2daeb.jpg",
+    "static/media/orsha-games.jpg": "/GOVERNMENT/static/media/orsha-games.6445d6eadd5845755202.jpg",
+    "static/media/bobruisk-music.jpg": "/GOVERNMENT/static/media/bobruisk-music.fbad43f2363b74dc1350.jpg",
+    "static/media/mozir-folk.jpg": "/GOVERNMENT/static/media/mozir-folk.611918d35bb30e0d0860.jpg",
+    "static/media/turov-arhitecture.jpg": "/GOVERNMENT/static/media/turov-arhitecture.792ee28f423b39e3192f.jpg",
+    "static/media/krichev-circus.jpg": "/GOVERNMENT/static/media/krichev-circus.e26e06b20dd3e85ed9bb.jpg",
+    "static/media/slutsk-moda.jpg": "/GOVERNMENT/static/media/slutsk-moda.a3208797d084a5b5ee80.jpg",
+    "static/media/polotsk-Books.jpg": "/GOVERNMENT/static/media/polotsk-Books.a42d722966e1329a4c8b.jpg",
+    "static/media/pinsk-cinema.jpg": "/GOVERNMENT/static/media/pinsk-cinema.3bb6018422b0c70fe39f.jpg",
+    "static/media/zhlobin-dance.jpg": "/GOVERNMENT/static/media/zhlobin-dance.2b954352e32ebe3c0907.jpg",
+    "static/media/novogrudok-pictures.jpg": "/GOVERNMENT/static/media/novogrudok-pictures.4093d6b997b7aa27427c.jpg",
+    "static/media/lida-photo.jpg": "/GOVERNMENT/static/media/lida-photo.7d656272d621eb97875c.jpg",
+    "static/media/3ava.jpg": "/GOVERNMENT/static/media/3ava.8c642fc9852b858433c4.jpg",
+    "static/media/2ava.jpg": "/GOVERNMENT/static/media/2ava.e17b6db735aff815ce52.jpg",
+    "static/media/1ava.jpg": "/GOVERNMENT/static/media/1ava.65a2eb2e9be431dafbc7.jpg",
+    "static/media/gomel.jpg": "/GOVERNMENT/static/media/gomel.c026ce5ad5a6841a759f.jpg",
+    "static/media/4ava.jpg": "/GOVERNMENT/static/media/4ava.e189915e3d687914d434.jpg",
+    "static/media/vitebsk.jpg": "/GOVERNMENT/static/media/vitebsk.f47f3812ea5edd7037de.jpg",
+    "static/media/minsk.jpg": "/GOVERNMENT/static/media/minsk.f8a747ab7b372a488181.jpg",
+    "static/media/mogilev.jpg": "/GOVERNMENT/static/media/mogilev.47471fefd5e84459839e.jpg",
+    "static/media/grodno.jpg": "/GOVERNMENT/static/media/grodno.992eabae37b83343dd94.jpg",
+    "static/media/brest.jpg": "/GOVERNMENT/static/media/brest.50186b9b0f463b499788.jpg",
+    "static/media/logo.jpg": "/GOVERNMENT/static/media/logo.1bb58ccc60a57ca34876.jpg",
+    "index.html": "/GOVERNMENT/index.html",
+    "main.ace76281.css.map": "/GOVERNMENT/static/css/main.ace76281.css.map",
+    "main.c8180609.js.map": "/GOVERNMENT/static/js/main.c8180609.js.map",
+    "787.c9d9a7d9.chunk.js.map": "/GOVERNMENT/static/js/787.c9d9a7d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ace76281.css",
+    "static/js/main.c8180609.js"
+  ]
+}
