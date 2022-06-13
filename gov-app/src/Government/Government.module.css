@@ -10,12 +10,16 @@
     display: flex;/*d+tab БЕЗ ПРОМЕЖУТКОВ*/
     flex-direction: column;   /*каждый блок с новой строки*/
     justify-content: space-between;  /*выровнять по центру ,блока*/
-    gap: 60px;
+    gap: 3px;
 
     font-size: 12px;
     font-weight: 700;  /*tw700+tab=100 — тонкое начертание; · 200 — сверхсветлое; · 300 — светлое; · 400 — нормальное (аналогично normal); · 500 — среднее; · 600 — полужирное; · 700 —жирное*/
     text-transform: uppercase;/*ttu+tab все буквы большие*/
-
+    position: sticky; /* Приклеиваем заголовок */
+    width: 100%;
+    top: 150px;
+    left: 0;
+    z-index: 1000;  /*z1000+tab*/
 }
 .nav__link {
     padding: 10px;/*ml50+tab отступ слева*/

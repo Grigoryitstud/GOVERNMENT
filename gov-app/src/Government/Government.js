@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import s from './Government.module.css';
 
 const Government = () => {
@@ -6,27 +7,66 @@ const Government = () => {
     <div className={s.intro}>
 
       <ul className={s.nav}>
-        <li className={s.nav__link}>образование</li>
-        <li className={s.nav__link} >медицина</li>
-        <li className={s.nav__link} >полиция</li>
-        <li className={s.nav__link} >ЖКХ</li>
-        <li className={s.nav__link} >строительство</li>
-        <li className={s.nav__link} >мид</li>
-        <li className={s.nav__link} >пресса</li>
-        <li className={s.nav__link} >культура</li>
-        <li className={s.nav__link} >природа</li>
-        <li className={s.nav__link} >военные</li>
-        <li className={s.nav__link} >торговля</li>
-        <li className={s.nav__link} >налоги</li>
-        <li className={s.nav__link} >мчс</li>
-        <li className={s.nav__link} >экология</li>
-        <li className={s.nav__link} >промышленость</li>
-        <li className={s.nav__link} >продовольствие</li>
-        <li className={s.nav__link} >соц. защиты</li>
-        <li className={s.nav__link} >финансы</li>
-        <li className={s.nav__link} >экономика</li>
-        <li className={s.nav__link} >энергетика</li>
-        <li className={s.nav__link} >юстиция</li>
+        <li className={s.nav__link}>
+          < Link to='/GovePage#ed' offset={-70}>образование</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#med'>медицина</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#pol'>полиция</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#jkx'>ЖКХ</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#build'>строительство</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#peace'>мид</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#press'>пресса</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#cul'>культура</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#mil'>военные</Link>
+        </li>
+        <li className={s.nav__link} >
+          <Link to='/GovePage#traid'>торговля</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#mon'>налоги</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#fire'>мчс</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#eco'>экология</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#bus'>своё дело</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#ind'>промышленность</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#food'>продовольствие</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#soc'>соц. защиты</Link>
+          </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#econ'>экономика</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#ener'>энергетика</Link>
+        </li>
+        <li className={s.nav__link} >
+          < Link to='/GovePage#jus'>юстиция</Link>
+        </li>
       </ul>
 
     </div>
