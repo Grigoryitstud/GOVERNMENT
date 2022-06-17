@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GOVERNMENT/static/css/main.ace76281.css",
-    "main.js": "/GOVERNMENT/static/js/main.c8180609.js",
+    "main.js": "/GOVERNMENT/static/js/main.4c9f1803.js",
     "static/js/787.c9d9a7d9.chunk.js": "/GOVERNMENT/static/js/787.c9d9a7d9.chunk.js",
     "static/media/states.jpg": "/GOVERNMENT/static/media/states.e9a87ec4d0edc8c3a521.jpg",
     "static/media/maxresdefault.jpg": "/GOVERNMENT/static/media/maxresdefault.7a54613abfaff54410ae.jpg",
@@ -30,11 +30,11 @@
     "static/media/logo.jpg": "/GOVERNMENT/static/media/logo.1bb58ccc60a57ca34876.jpg",
     "index.html": "/GOVERNMENT/index.html",
     "main.ace76281.css.map": "/GOVERNMENT/static/css/main.ace76281.css.map",
-    "main.c8180609.js.map": "/GOVERNMENT/static/js/main.c8180609.js.map",
+    "main.4c9f1803.js.map": "/GOVERNMENT/static/js/main.4c9f1803.js.map",
     "787.c9d9a7d9.chunk.js.map": "/GOVERNMENT/static/js/787.c9d9a7d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ace76281.css",
-    "static/js/main.c8180609.js"
+    "static/js/main.4c9f1803.js"
   ]
 }
